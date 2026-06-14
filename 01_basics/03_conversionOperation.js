@@ -48,7 +48,7 @@ console.table([valueInNumber1,valueInNumber2,valueInNumber3,valueInNumber4,value
 
 let isLogedIn ="Vidyanshu"
 let booleanIsLoggedIn =Boolean(isLogedIn)
-console.log(booleanIsLoggedIn);
+//console.log(booleanIsLoggedIn);
 
 
 // 1 => true; 0=> false;
@@ -57,7 +57,55 @@ console.log(booleanIsLoggedIn);
 
 let someNumber = 55
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
 
+//*********************** OPERATIONS ************************
+ 
+let value1 = "3"
+let negValue1 = -value1
+//console.log(negValue1);
+
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+
+let str1 = "Hello"
+let str2 = "Vidyanshu"
+let str3 = str1 + " " + str2
+// console.log(str3);
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + "2");
+// console.log("1" + 2 + 2 );  //if first value is string then it will convert all other values to string and then concatenate them
+// console.log(1 + 2 + "2"); //if first value is number then it will perform addition operation and then convert the result to string and concatenate with "2"
+// console.log( 1 + 2 + "3");
+
+// console.log((3+4)*2);
+
+// console.log(+true);  //1
+// console.log(+false); //0
+// console.log(+""); //0
+// console.log(+"Vidyanshu"); //NaN
+// console.log(+null); //0
+// console.log(+undefined); //NaN
+// console.log(+NaN); //NaN
+// console.log(+Infinity); //Infinity
+
+let num1, num2, num3, 
+num1=num2=num3=2+2
+console.log(num1);
+ 
+let gameCounter = 100
+gameCounter++ // gameCounter = gameCounter + 1
+gameCounter++ // gameCounter = 1 + gameCounter
+console.log(gameCounter);
+
+//study documentation
+//ECMA web page (search for typecasting in js) 
