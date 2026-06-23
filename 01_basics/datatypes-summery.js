@@ -36,3 +36,4 @@ console.log(myFunction ());
 console.log(typeof heros);  //=> Object
 console.log(typeof myFunction);  //=> function (Object function)
 
+//  https://262.ecma-international.org/#sec-ecmascript-data-types-and-values
